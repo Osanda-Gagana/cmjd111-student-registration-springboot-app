@@ -2,12 +2,14 @@ package lk.ijse.cmjd_111.CourseRegistration2025.dto;
 
 import lombok.*;
 
+import java.io.Serializable;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
 @Data
-public class UserDTO {
+public class UserDTO implements Serializable {
     private String  userId;
     private String  password;
     private String  firstName;
