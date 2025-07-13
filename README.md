@@ -1,1 +1,1 @@
-This a Java SpringBoor Project for layered architecure.
+This a Java SpringBoot Project for layered architecure.
