@@ -85,4 +85,10 @@ public class StudentController {
         System.out.println("Student id " + studentId);
         System.out.println(studentUpdateData);
     }
+
+    @DeleteMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    public void deleteStudent(@RequestHeader("X-studentId") String studentId) {
+        System.out.println("Student id to be deleted :" + studentId);
+    }
+
 }
